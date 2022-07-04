@@ -10,6 +10,9 @@ div {
   padding: 20px;
   margin: 30px;
 }
+table{
+  margin: 0 auto; /*테이블 중앙 정렬*/
+}
 #description{
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
