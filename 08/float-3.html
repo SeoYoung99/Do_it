@@ -5,24 +5,16 @@
 	<title>박스모델</title>
 	<style>
 		div {
-			padding:20px;
-			margin:10px;
+			float: left;
+			background-color: aliceblue;
+			/* margin: 44px; */
 		}
-		#box1{
-			background:#ffd800;
-			float:left;  /* 왼쪽으로 플로팅 */ 
-		}
-		#box2 {
-			background: #0094ff;
-			float:left;  /* 왼쪽으로 플로팅 */
-		}
-		#box3 {
-			background: #00ff21;
-		}
-		#box4 {
-			background:#a874ff;
-			clear:left;  /* 플로팅 해제 */
-		}
+		
+		/*박스1과 박스2는 마진 상쇄가 일어나지 않았고, div에 지정한 마진, 패딩, 컨텐츠만큼의 크기를 가진다. 
+		박스3은 flaot속성이 전달되어 부유된 영역 아래로 들어가고 위쪽에 마진 상쇄가 일어난다. 
+		박스3에 의해 상쇄된 위쪽 마진에 따라 박스1과 박스2가 배치되었다. 
+		박스4는 clear속성으로 float이 해제되었으므로 평범한 박스 형태로 표현된다. 
+		floating하고 있는 요소의 마진 아래로 배치되는데 clear한 요소의 margin 위쪽은 반영되지 않는다.*/
 	</style>
 </head>
 <body>
