@@ -9,8 +9,12 @@
  width:800px;
  height:500px;
  margin:0 auto;
+ position: relative; /*contents가 h1의 기준 요소*/
 }
 h1 { 
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
   color:#fff; 
   font-size:120px;
   text-shadow: 2px 3px 0 #000;      
