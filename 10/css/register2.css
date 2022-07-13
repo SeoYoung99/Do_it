@@ -21,7 +21,14 @@ body {
 	border: 1px solid #ccc;
 	margin-bottom: 30px;
 }
-		
+#signup fieldset:last-of-type{
+	border: none;
+	margin-bottom: 0;
+}
+#signup button:hover{
+	background-color: rgb(79, 79, 79);
+	color: #fff;
+}
 #signup legend {
 	font-size: 16px;
 	font-weight: bold;
@@ -67,3 +74,4 @@ body {
 #signup input[readonly] {  /* 읽기 전용 필드의 스타일 */
 	border:none;
 }
+
